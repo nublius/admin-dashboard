@@ -156,11 +156,12 @@ li>img {
     background-color: #F3EEFF;
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 2fr 1fr;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+    overflow-y: auto;
 }
 
 .body-header {
@@ -171,8 +172,8 @@ li>img {
 
 .card-containers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -211,6 +212,13 @@ li>img {
 .card-containers {
     display: grid;
 
+}
+
+.announcements {
+    background-color: white;
+    height: 25em;
+    width: 80%;
+    border-radius: 15px; 
 }
 
 img.white-logo {

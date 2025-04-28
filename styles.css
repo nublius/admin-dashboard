@@ -28,8 +28,8 @@
 }
 
 .header-bar-2 {
-    align-content: center;
     display: flex;
+    align-items: center;
 }
 
 .container-search {

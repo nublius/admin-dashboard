@@ -38,7 +38,13 @@
 .alert-tray {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
+}
+
+.alert-tray>.profile-pic {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
 }
 
 .container-search>img, .alert-tray>img{
@@ -55,7 +61,7 @@ input[type="search"] {
 }
 
 .container-dashboard {
-    background-color: hsl(205 80% 60%);
+    background-color: hsl(257 38.4% 49.5%);
     grid-area: 1 / 1 / 3 / 2;
     display: flex;
     flex-direction: column;

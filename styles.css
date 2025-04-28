@@ -19,12 +19,17 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .header-bar-1 {
     display: flex;
     justify-content: space-between;
+}
+
+.header-bar-2 {
+    align-content: center;
+    display: flex;
 }
 
 .container-search {
@@ -50,6 +55,22 @@
 .container-search>img, .alert-tray>img{
     height: 1.7em;
     width: 1.7em;
+}
+
+.container-hello {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+}
+
+.hello {
+    align-self: center;
+}
+
+.container-hello>img {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
 }
 
 input[type="search"] {
